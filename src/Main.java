@@ -66,8 +66,8 @@ public class Main {
     public static void task9 () {
         System.out.println("Задача 9");
         for(int month = 1; month <= 12; month = month +1 ) {
-            int summaVbanke = month * (29000/100);
-            System.out.println("Месяц "+month+", сумма накоплений равна "+summaVbanke+" рублей. ");
+            int summaInBank = month * (29000/100);
+            System.out.println("Месяц "+month+", сумма накоплений равна "+summaInBank+" рублей. ");
         }
     }
     public static void task10 () {
